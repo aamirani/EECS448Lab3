@@ -9,3 +9,13 @@ function next(){ //Gets next image
     }
     document.getElementById('ss').src = imgarray[index];
 }
+
+function previous(){ //Gets next image
+    if(index == 0){
+        index = 4;
+    }
+    else{
+        index--;
+    }
+    document.getElementById('ss').src = imgarray[index];
+}
