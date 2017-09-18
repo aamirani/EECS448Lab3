@@ -1,0 +1,29 @@
+*{
+    background-color: #001f3f;   
+    color: #fff;
+    text-align: center;
+    font-family: arial;
+    list-style: none;
+}
+
+img{
+    max-width: 200px;
+    height: auto;
+}
+
+.bio p{
+    font-size: 12pt;
+}
+
+.favoritesites a{
+    transition: all .5s;
+}
+
+.favoritesites a:hover{
+    letter-spacing: 1.2px;
+    color: #7FDBFF;
+}
+
+.youtubevideo{
+    background: url(https://i.ytimg.com/vi/jJusJGreqTo/maxresdefault.jpg);
+}
