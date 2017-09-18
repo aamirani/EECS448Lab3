@@ -9,3 +9,9 @@
 input{
     width: 250px;
 }
+
+.borderforms, .backgroundforms{
+    padding: 0;
+    margin: 0; 
+    display: inline-block;
+}

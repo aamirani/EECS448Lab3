@@ -14,21 +14,28 @@
 <div class="borderforms">
     <h3>Enter values to change border!</h3>
     <form>
-    <input type="text" name="rborder" value="Enter red value (RGB 0-255)">
-    <input type="text" name="gborder" value="Enter green value (RGB 0-255)">
-    <input type="text" name="bborder" value="Enter blue value (RGB 0-255)">
-    <input type="text" name="rborder" value="Enter width value (Percentage: 0-100%">
+    <p>Enter red value (RGB 0-255)</p>
+    <input type="text" name="rborder" id="rborder">
+    <p>Enter green value (RGB 0-255)</p>
+    <input type="text" name="gborder" id="gborder">
+    <p>Enter blue value (RGB 0-255)</p>
+    <input type="text" name="bborder" id="bborder">
+    <p>Enter width value (Percentage 0-100)</p>
+    <input type="text" name="wborder" id="wborder">
     </form>
 </div>
 <div class="backgroundforms">
     <h3>Enter values to change background!</h3>
     <form>
-    <input type="text" name="rbackground" value="Enter red value (RGB 0-255)">
-    <input type="text" name="gbackground" value="Enter green value (RGB 0-255)">
-    <input type="text" name="bbackground" value="Enter blue value (RGB 0-255)">
+    <p>Enter red value (RGB 0-255)</p>
+    <input type="text" name="rbackground" id="rbackground">
+    <p>Enter green value (RGB 0-255)</p>
+    <input type="text" name="gbackground" id="gbackground">
+    <p>Enter blue value (RGB 0-255)</p>
+    <input type="text" name="bbackground" id="bbackground">
     </form>
+    <button class="button" onclick="changestyle()">Submit Styles</button>
 </div>
 
-<button class="button">Submit Styles</button>
 </body>
 </html>
