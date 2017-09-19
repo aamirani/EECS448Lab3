@@ -1,0 +1,24 @@
+*{
+    text-align: center;
+    list-style: none;
+    background-color: #85144b; 
+    color: #fff;
+}
+
+.header{
+    border-bottom: 2px solid #FF4136;
+}
+
+.exlist a li{
+    background-color: #0074D9;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 32px;
+    transition: all, .5s;
+
+}
+
+a:hover{
+    letter-spacing: 1.2px;
+    
+}
